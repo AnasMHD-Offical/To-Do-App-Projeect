@@ -17,15 +17,24 @@
 <link rel="shortcut icon" href="img/D 0 I T.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/D 0 I T.png" alt="">
-        </div>
-    </header>
     <div class="container">
         <div class="todo">
-            <h2>To-Do List <img src="img/icon.png" alt="icon" class="todo-icon"></h2>
+            <h2>To-Do List <img src="img/icon.png" alt="icon" 
+                class="todo-icon"></h2>
+            <div class="row">
+                <input type="text" name="Search" id="input-box" 
+                        title="Search" placeholder="Add your tasks..">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
         </div>
     </div>
+
+    <!--Js file-->
+    <script src="script.js"></script>
 </body>
 </html>
