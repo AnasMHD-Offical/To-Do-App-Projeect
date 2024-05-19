@@ -1,3 +1,23 @@
+@media(orientation:portrait){
+    .todo{
+        max-width: 340px;
+    }
+    .row{
+        flex-wrap: nowrap;
+        width: 270px;
+        padding: 10px 20px;
+    }
+    input{
+        flex: auto;
+        padding-right: 5px;
+    }
+    button{
+        width: 70px;
+        padding: 10px ;
+        font-size: 14px;
+         
+    }
+}
 @media (min-width:1000px) {
     .todo{
         max-width: 640px;
@@ -24,12 +44,13 @@
         max-width: 340px;
     }
     .row{
-        flex-wrap: nowrap;
-        width: 270px;
+        justify-content: space-evenly;
+        width: 300px;
         padding: 10px 20px;
     }
     input{
         flex: auto;
+        width: 100px;
         padding-right: 5px;
     }
     button{
