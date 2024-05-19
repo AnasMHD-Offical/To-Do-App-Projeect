@@ -1,0 +1,63 @@
+@media (min-width:1000px) {
+    .todo{
+        max-width: 640px;
+    }
+    .todo h2{
+        font-size: 27px;
+    }
+    .row{
+        width: 570px;
+        padding: 10px 20px;
+    }
+    input{
+        font-size: 20px;
+    }
+    button{
+        
+        font-size: 20px;
+         
+    }
+}
+@media (max-width:570px) {
+    .todo{
+        max-width: 340px;
+    }
+    .row{
+        flex-wrap: nowrap;
+        width: 270px;
+        padding: 10px 20px;
+    }
+    input{
+        padding-right: 5px;
+    }
+    button{
+        width: 70px;
+        padding: 10px ;
+        font-size: 14px;
+         
+    }
+    
+}
+@media (max-width:370px) {
+    .todo{
+        max-width: 280px;
+    }
+    .row{
+        
+        width: 230px;
+        padding: 7px 16px;
+        
+    }
+    input{
+        flex: auto;
+        width: 60px;
+        padding-right:2px;
+    }
+    button{
+        width: 60px;
+        padding:9px ;
+        font-size: 12px;
+         
+    }
+    
+}
